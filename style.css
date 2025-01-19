@@ -1,0 +1,86 @@
+html{
+    font-family: sans-serif;
+}
+
+.wholething{
+    background-color: rgb(68, 26, 107);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+}
+.container{
+    background-color: rgb(90, 45, 253);
+    width: 500px;
+    height: 500px;
+    margin: 50px 0px;
+    border-radius: 20px;
+}
+.create
+{
+    background-color: white;
+    width: auto;
+    height: 50px;
+    margin: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nameInput
+{
+    flex: 2;
+    font-size: 20px;
+}
+
+.amountInput
+{
+    width: 100px;
+    font-size: 20px;
+
+}
+
+.addBtn{
+    width: 50px;
+    font-size: 30px;
+}
+
+.nameInput, .amountInput, .addBtn{
+    border-style: none;
+}
+
+.nameInput, .amountInput, .addBtn:focus{
+    outline: none;
+}
+
+.test{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: 10px 10px;
+}
+
+.smallContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.checkBox{
+    size: 50px;
+    background-color: black;
+}
+
+.closeBtn{
+    margin-left: auto;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    flex: end;
+}
